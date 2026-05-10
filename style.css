@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("background.jpg");
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: rgb(120, 144, 221);
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+header span{
+    text-align: center;
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 22px;
+    display: block;
+    color: white;
+}
+
+
+.container{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+
+.container h1{
+    font-size: 40px;
+    margin-left: 3px;
+    color: rgb(3, 62, 255);
+    font-weight: bolder;
+}
+
+.todo-input{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.input{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: white;
+    margin: 20px 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.desc{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    background: white;
+    margin: 0px 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    height: 200px;
+}
+
+.add{
+    width: 100%;
+    padding: 20px;
+    background: rgb(120, 144, 221);
+    cursor: pointer;
+    color: white;
+    margin: 15px 0px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.todo-container{
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+}
+
+.todo-item{
+    display: block;
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.todo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-item h3{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0;
+}
+
+.todo-item p{
+    color: #333;
+    margin: 10px 0 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.delete-btn{
+    background: #ff5252;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.delete-btn:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
